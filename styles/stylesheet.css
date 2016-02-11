@@ -190,19 +190,19 @@ header {
 .btn-menu p {
 	color: white;
 	font-size: 22px;
-	font-family: "KaiminSoStd","ヒラギノ明朝 ProN W3", "HiraMinProN-W3", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+	font-family: "KaiminSoStd","ヒラギノ明朝 ProN W3", "游明朝体", "Yu Mincho", serif;
 }
 
 .btn-news p {
 	color: white;
 	font-size: 22px;
-	font-family: "KaiminSoStd","ヒラギノ明朝 ProN W3", "HiraMinProN-W3", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+	font-family: "KaiminSoStd","ヒラギノ明朝 ProN W3", "游明朝体", "Yu Mincho", serif;
 }
 
 .btn-phot p {
 	color: white;
 	font-size: 22px;
-	font-family: "KaiminSoStd","ヒラギノ明朝 ProN W3", "HiraMinProN-W3", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+	font-family: "KaiminSoStd","ヒラギノ明朝 ProN W3", "游明朝体", "Yu Mincho", serif;
 }
 
 .page-link img {
