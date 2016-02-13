@@ -1,16 +1,12 @@
 @media screen and (min-width: 1024px){
 
-img{
-	max-width: 100%;
-}
-
 body {
-	width: 100%;
 	margin: 0;
 }
 
 .container {
 	width: 964px;
+	padding: 0 30px;
 	margin: 0 auto;
 }
 
@@ -31,7 +27,6 @@ header img {
 
 
 .header-logo {
-	float: left;
 	margin-top: 20px;
 }
 
@@ -41,8 +36,13 @@ header img {
 	margin: 0 auto 20px;
 }
 
+.top-logo img {
+	width: 272px;
+	height: 194px;
+}
+
 .top-wrapper {
-	height: 643px;
+	height: 618px;
 }
 
 #slider {
@@ -100,7 +100,7 @@ header img {
   display: inline-block;
   width: 16px;
   height: 16px;
-  margin: 0 10px;
+  margin: 0 21px 0 0;
 }
 
 #pager a:hover {

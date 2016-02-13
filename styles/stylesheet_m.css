@@ -1,17 +1,13 @@
-@media screen and (max-width: 1240px){
-
-img{
-	max-width: 580px;
-}
+@media screen and (min-width: 640px){
 
 body {
-	width: 100%;
 	margin: 0;
 }
 
 .container {
 	width: 580px;
 	margin: 0 auto;
+	padding: 0 30px;
 }
 
 .title {
@@ -26,19 +22,14 @@ header {
 }
 
 .header-logo {
+	width: 211px;
 	height: 48px;
-	margin: 20px  0 0 179px;
+	margin: 20px auto 0;
 }
 
 .top-logo {
 	width: 316px;
-	height: 226px;
-	margin: 41px auto 40px;
-}
-
-.top-logo img {
-	width: 316px;
-	height: 226px;
+	margin: 40px auto 40px;
 }
 
 .top-wrapper {
@@ -51,6 +42,10 @@ header {
   margin: 0 auto;
 }
 
+#slider img {
+	width: 580px;
+	height: auto;
+}
 
 #wrapper {
   background: #fff;
@@ -59,9 +54,6 @@ header {
   margin: 0 auto;
 }
 
-#wrapper img {
-	height: 326px;
-}
 
 #carousel  {
 	margin: 0;
@@ -105,7 +97,7 @@ header {
   display: inline-block;
   width: 16px;
   height: 16px;
-  margin: 0 10px;
+  margin: 0 10px 0 10px;
 }
 
 #pager a:hover {
@@ -278,7 +270,6 @@ header {
 .menu-left {
 	height: 293px;
 	width: 520px;
-	float: center;
 	background-color: white;
 	margin: 0 auto;
 	margin-bottom: 67px;
@@ -294,7 +285,7 @@ header {
 }
 
 .news-wrapper {
-	height: 925px;
+	height: 845px;
 }
 
 .title-news {
@@ -410,6 +401,11 @@ header {
 	margin: 0 auto;
 }
 
+.photo-container{
+	width: 518px;
+	margin: 0 auto;
+}
+
 .photo {
 	height: 166px;
 	width: calc(100% / 3) ;
@@ -425,7 +421,6 @@ header {
 .photo1 {
 	height: 166px;
 	width: 166px;
-	float: left;
 }
 
 .photo2 {
@@ -443,7 +438,6 @@ header {
 .photo4 {
 	height: 166px;
 	width: 166px;
-	float: left;
 }
 
 .photo5 {
@@ -468,6 +462,7 @@ footer p {
 }
 
 footer {
+	width: 100%;
 	background-color: rgb(111,88,57);
 	height: 146px;
 	margin: 0 auto;
