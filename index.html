@@ -7,6 +7,7 @@
 	<link rel="stylesheet" media="all" type="text/css" href="styles/stylesheet.css">
 	<link rel="stylesheet" media="all" type="text/css" href="styles/stylesheet_m.css">
 	<link rel="stylesheet" media="all" type="text/css" href="styles/stylesheet_s.css">
+	<link rel="stylesheet" media="all" type="text/css" href="styles/slider_responsib.css">
 	<script type="text/javascript" src="jquery/jquery-1.12.0.min.js">
 	</script>
 	<script type="text/javascript" src="jquery/jquery.carouFredSel-6.2.1-packed.js">
@@ -22,7 +23,9 @@
 	</header>
 	<div class="container">
 		<div class="top-logo">	
-			<img src="images/logo.png">	
+			<div class="top-logo-wrapper">
+				<img src="images/logo.png">	
+			</div>
 		</div>
 	</div>
 
@@ -35,7 +38,7 @@
     			<li><img src="images/img3.jpg" width="964" height="542" /></li>
     			<li><img src="images/img4.jpg" width="964" height="542" /></li>
   			</ul>
-  			<div class="container">
+  			<div class="arrow-container">
   				<a href="#" id="prev"></a>
   				<a href="#" id="next"></a>
   			</div>
@@ -88,41 +91,41 @@
 			<div class="menu-left">
 				<div class="menu-pic">
 					<div class="menu">
-						<img src="images/menu1.jpg" height="268" width="386">
+						<img src="images/menu1.jpg">
 					</div>
-					<p>前菜</p>
+					<a>前菜</a>
 				</div>
 			</div>
 			<div class="menu-right">
 				<div class="menu-pic">
 					<div class="menu">
-						<img src="images/menu2.jpg" height="268" width="398">
+						<img src="images/menu2.jpg">
 					</div>
-					<p>スープ</p>
+					<a>スープ</a>
 				</div>
 			</div>
 			<div class="menu-left">
 				<div class="menu-pic">
 					<div class="menu">
-						<img src="images/menu3.jpg" height="268" width="386">
+						<img src="images/menu3.jpg">
 					</div>
-					<p>魚料理</p>
+					<a>魚料理</a>
 				</div>
 			</div>
 			<div class="menu-right">
 				<div class="menu-pic">
 					<div class="menu">
-						<img src="images/menu4.jpg" height="268" width="386">
+						<img src="images/menu4.jpg">
 					</div>
-					<p>肉料理</p>
+					<a>肉料理</a>
 				</div>
 			</div>	
 			<div class="menu-left">
 				<div class="menu-pic">
 					<div class="menu">
-						<img src="images/menu5.jpg" height="268" width="386">
+						<img src="images/menu5.jpg">
 					</div>
-					<p>デザート</p>
+					<a>デザート</a>
 				</div>
 			</div>
 		</div>
@@ -162,6 +165,8 @@
 				</div>
 			</div>
 		</div>
+		<div class="clear-box">
+		</div>
 	</div>
 
 	<div class="photo-wrapper">
@@ -175,40 +180,44 @@
 		<div class="photo-container">
 			<div class="photo">
 				<div class="photo1">
-					<img src="images/photo1.jpg" height="152" width="152">
+					<img src="images/photo1.jpg">
 				</div>
 			</div>
 			<div class="photo">
 				<div class="photo2">
-					<img src="images/photo2.jpg" height="152" width="152">
+					<img src="images/photo2.jpg">
 				</div>
 			</div>
 			<div class="photo">
 				<div class="photo3">
-						<img src="images/photo3.jpg" height="152" width="152">
+						<img src="images/photo3.jpg">
 				</div>
 			</div>
 			<div class="photo">
 				<div class="photo4">
-					<img src="images/photo4.jpg" height="152" width="152">
+					<img src="images/photo4.jpg">
 				</div>
 			</div>
 			<div class="photo">
 				<div class="photo5">
-					<img src="images/photo5.jpg" height="152" width="152">
+					<img src="images/photo5.jpg">
 				</div>
 			</div>
 			<div class="photo">
 				<div class="photo6">
-					<img src="images/photo6.jpg" height="152" width="152">
+					<img src="images/photo6.jpg">
 				</div>
 			</div>
+		</div>
+		<div class="clear-box">
 		</div>
 	</div>
 
 	<footer>
 		<div class="container">
-			<p>Copyright © 2016 IMJ Corporation. All Rights Reserved.</p>
+			<div class="footer-text">
+				<a>Copyright © 2016 IMJ Corporation. All Rights Reserved.</a>
+			</div>
 		</div>
 	</footer>
 	<script type="text/javascript" src="scripts/script.js">

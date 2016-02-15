@@ -1,4 +1,4 @@
-@media screen and (min-width: 640px){
+@media screen and (max-width: 1024px){
 
 body {
 	margin: 0;
@@ -15,16 +15,21 @@ body {
 	padding: 80px 0 40px 0; 
 }
 
+.clear-box {
+	clear: both;
+}
+
 header {
 	width: 100%;
-	height: 80px;
+	height: 65px;
 	border-bottom: rgb(242,242,242) solid 2px;
+	padding-top: 20px;
 }
 
 .header-logo {
 	width: 211px;
 	height: 48px;
-	margin: 20px auto 0;
+	margin: 0 auto;
 }
 
 .top-logo {
@@ -42,7 +47,7 @@ header {
   margin: 0 auto;
 }
 
-#slider img {
+#carousel img {
 	width: 580px;
 	height: auto;
 }
@@ -63,6 +68,11 @@ header {
 #carousel li {
   float: left;
   margin: 0 5px;
+}
+
+.arrow-container{
+	width: 580px;
+	margin: 0 auto;
 }
 
 #prev, #next {
@@ -116,6 +126,7 @@ header {
 	background-color: rgb(249,235,210);
 	height: 1995px;
 	padding: 0;
+	margin-top: 20px;
 }
 
 .page-link {
@@ -243,7 +254,8 @@ header {
 }
 
 .menu {
-	width: 422px;
+	width: 420px;
+	height: auto;
 	margin: 0 auto;
 }
 
@@ -255,11 +267,12 @@ header {
 
 .menu-pic {
 	position: relative;
+	height: 100%;
 }
 
-.menu-pic p {
+.menu-pic a {
 	position: absolute;
-	top: 284px;
+	top: 308px;
 	width: 520px;
 	color: #6f5839;
 	font-size: 24px;
@@ -452,19 +465,20 @@ header {
 	float: right;
 }
 
+.footer-text {
+	padding-top: 20px;
+}
 
-footer p {
-	height: 12px;
+footer a {
 	color: #cccccc;
 	font-size: 20px;
 	text-align: center;
-	padding-top: 20px;
 }
 
 footer {
 	width: 100%;
 	background-color: rgb(111,88,57);
-	height: 146px;
+	height: 141px;
 	margin: 0 auto;
 }
 }

@@ -15,6 +15,10 @@ body {
 	padding: 80px 0 40px 0; 
 }
 
+.clear-box {
+	clear: both;
+}
+
 header {
 	width: 100%;
 	height: 53px;
@@ -68,6 +72,11 @@ header img {
   margin: 0 5px;
 }
 
+.arrow-container{
+	width: 964px;
+	margin: 0 auto;
+}
+
 #prev, #next {
   display: block;
   height: 88px;
@@ -119,6 +128,7 @@ header img {
 	background-color: rgb(249,235,210);
 	height: 1306px;
 	padding: 50px 0 0 0;
+	margin-top: 20px;
 }
 
 .page-link {
@@ -246,16 +256,18 @@ header img {
 
 .menu {
 	width: 398px;
+	height: auto;
 	margin: 0 auto;
 }
 
 .menu-pic {
 	position: relative;
+	height: 100%;
 }
 
-.menu-pic p {
+.menu-pic a {
 	position: absolute;
-	top: 268px;
+	top: 308px;
 	width: 477px;
 	color: #6f5839;
 	font-size: 18px;
@@ -376,6 +388,11 @@ header img {
 	height: 361px;
 }
 
+.photo-container {
+	width: 964px;
+	margin: 0 auto;
+}
+
 .title-phot {
 	width: 511px;
 	height: 37px;
@@ -424,12 +441,19 @@ header img {
 	margin-left: 7px;
 }
 
-footer p {
+.footer-text {
+	width: 331px;
+	padding-top: 20px;
+	margin: 0 auto;
+}
+
+footer a {
+	width: 100%;
 	height: 12px;
 	color: #cccccc;
 	font-size: 12px;
 	text-align: center;
-	padding-top: 21px;
+	margin: 0 auto;
 }
 
 footer {
