@@ -410,6 +410,7 @@ header {
 
 .photo-wrapper {
 	height: 512px;
+	margin-bottom: 80px;
 }
 
 .title-phot {

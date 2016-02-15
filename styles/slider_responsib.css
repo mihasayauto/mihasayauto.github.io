@@ -2,6 +2,7 @@
   #slider img {
     width: 580px;
     height: 326px;
+    vertical-align:bottom;
   }
 
   #carousel li {
