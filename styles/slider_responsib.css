@@ -1,7 +1,7 @@
 @media screen and (max-width: 639px){
   #slider img {
     width: 580px;
-    height: auto;
+    height: 326px;
   }
 
   #carousel li {
@@ -50,7 +50,7 @@
 @media screen and (max-width: 579px){
   #slider img {
     width: 525.625px;
-    height: auto;
+    height: 296px;
   }
 
   #carousel li {
@@ -100,7 +100,7 @@
 @media screen and (max-width: 525px){
   #slider img {
     width: 480.3125px;
-    height: auto;
+    height: 270px;
   }
 
   #carousel li {
@@ -150,7 +150,7 @@
 @media screen and (max-width: 480px){
   #slider img {
     width: 435px;
-    height: auto;
+    height: 245px;
   }
 
   #carousel li {
@@ -200,7 +200,7 @@
 @media screen and (max-width: 435px){
   #slider img {
     width: 395px;
-    height: auto;
+    height: 222px;
   }
 
   #carousel li {
@@ -250,7 +250,7 @@
 @media screen and (max-width: 395px){
   #slider img {
     width: 358px;
-    height: auto;
+    height: 201px;
   }
 
   #carousel li {
@@ -300,7 +300,7 @@
 @media screen and (max-width: 360px){
   #slider img {
     width: 326.25px;
-    height: auto;
+    height: 183px;
   }
 
   #carousel li {
@@ -350,7 +350,7 @@
 @media screen and (max-width: 330px){
   #slider img {
     width: 299.1px;
-    height: auto;
+    height: 168px;
   }
 
   #carousel li {
@@ -400,7 +400,7 @@
 @media screen and (max-width: 320px){
   #slider img {
     width: 290px;
-    height: auto;
+    height: 163px;
   }
 
   #carousel li {
