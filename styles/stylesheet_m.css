@@ -211,19 +211,19 @@ header {
 .btn-menu p {
 	color: white;
 	font-size: 22px;
-	font-family: "HiraMinProN-W3","ヒラギノ明朝 ProN W3", "游明朝", "YuMincho", serif;
+	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 }
 
 .btn-news p {
 	color: white;
 	font-size: 22px;
-	font-family: "HiraMinProN-W3","ヒラギノ明朝 ProN W3", "游明朝", "YuMincho", serif;
+	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 }
 
 .btn-phot p {
 	color: white;
 	font-size: 22px;
-	font-family: "HiraMinProN-W3","ヒラギノ明朝 ProN W3", "游明朝", "YuMincho", serif;
+	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 }
 
 .page-link img {
@@ -281,7 +281,7 @@ header {
 	color: #6f5839;
 	font-size: 24px;
 	text-align: center;
-	font-family: "メイリオ", sans-serif;
+	font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HiraKakuPro-W3","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",Arial, Helvetica,sans-serif;
 }
 
 .menu-left {
@@ -295,7 +295,6 @@ header {
 .menu-right {
 	height: 293px;
 	width: 520px;
-	float: center;
 	background-color: white;
 	margin: 0 auto;
 	margin-bottom: 67px;
@@ -327,10 +326,15 @@ header {
  	height: auto;
 }
 
+.news img:hover {
+	filter:alpha(opacity=80);
+	opacity:0.8;
+}
+
 .news1 {
 	width: 254px;
 	height: 338px;
-	background-color: grey;
+	background-color: white;
 	position: relative;
 	float: right;
 	margin-right: 5px;
@@ -346,7 +350,7 @@ header {
 
 .news-text1 p{
 	font-size: 24px;
-	font-family: "メイリオ",'Meiryo' sans-serif;
+	font-family: Arial, Helvetica,"メイリオ",Meiryo,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HiraKakuPro-W3","ＭＳ Ｐゴシック","MS PGothic",sans-serif;
 	color:white;
 	margin: 15px 20px;
 	letter-spacing: 0.08em;
@@ -357,7 +361,7 @@ header {
 .news2 {
 	width: 254px;
 	height: 338px;
-	background-color: grey;
+	background-color: white;
 	position: relative;
 	float: left;
 	margin-left: 5px;
@@ -373,7 +377,7 @@ header {
 
 .news-text2 p{
 	font-size: 24px;
-	font-family: "メイリオ",'Meiryo' sans-serif;
+	font-family: Arial, Helvetica,"メイリオ",Meiryo,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HiraKakuPro-W3","ＭＳ Ｐゴシック","MS PGothic",sans-serif;
 	color:white;
 	margin: 15px 20px;
 	letter-spacing: 0.08em;
@@ -384,7 +388,7 @@ header {
 .news3 {
 	width: 254px;
 	height: 338px;
-	background-color: grey;
+	background-color: white;
 	float: right;
 	position: relative;
 	margin-right: 5px;
@@ -400,7 +404,7 @@ header {
 
 .news-text3 p{
 	font-size: 24px;
-	font-family: "メイリオ",'Meiryo', sans-serif;
+	font-family: Arial, Helvetica,"メイリオ",Meiryo,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HiraKakuPro-W3","ＭＳ Ｐゴシック","MS PGothic",sans-serif;
 	color:white;
 	margin: 15px 20px;
 	letter-spacing: 0.08em;
@@ -479,6 +483,7 @@ header {
 }
 
 footer {
+	font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HiraKakuPro-W3","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",Arial, Helvetica,sans-serif;
 	width: 100%;
 	background-color: rgb(111,88,57);
 	height: 141px;
