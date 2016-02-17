@@ -211,19 +211,19 @@ header img {
 .btn-menu p {
 	color: white;
 	font-size: 22px;
-	font-family: "HiraMinProN-W3","ヒラギノ明朝 ProN W3", "游明朝", "YuMincho", serif;
+	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 }
 
 .btn-news p {
 	color: white;
 	font-size: 22px;
-	font-family: "HiraMinProN-W3","ヒラギノ明朝 ProN W3", "游明朝", "YuMincho", serif;
+	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 }
 
 .btn-phot p {
 	color: white;
 	font-size: 22px;
-	font-family: "HiraMinProN-W3","ヒラギノ明朝 ProN W3", "游明朝", "YuMincho", serif;
+	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 }
 
 .page-link img {
@@ -236,7 +236,7 @@ header img {
 	top: 0px;
 	right: 0;
 	height: 100%;
-	width: 23%;
+	width: 28px;
 }
 
 .active {
