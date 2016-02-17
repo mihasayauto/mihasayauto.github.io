@@ -198,45 +198,48 @@ header img {
 
 .btn-news {
 	position: relative;
-	width: 92px;
+	width: 87px;
 	margin: 13.5px auto;
 }
 
 .btn-phot {
 	position: relative;
-	width: 170px;
+	width: 155px;
 	margin: 13.5px auto;
 }
 
 .btn-menu p {
 	color: white;
 	font-size: 22px;
-	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "ＭＳ Ｐ明朝","メイリオ",Meiryo, serif;
+	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "ＭＳ Ｐ明朝","MS PMincho", "メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic", serif;
 }
 
 .btn-news p {
 	color: white;
 	font-size: 22px;
-	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "ＭＳ Ｐ明朝","メイリオ",Meiryo, serif;
+	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "ＭＳ Ｐ明朝","MS PMincho", "メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic", serif;
 }
 
 .btn-phot p {
 	color: white;
 	font-size: 22px;
-	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "ＭＳ Ｐ明朝","メイリオ",Meiryo, serif;
+	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "ＭＳ Ｐ明朝","MS PMincho", "メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic", serif;
 }
 
 .page-link img {
-	margin-left: 16px;
+	position: absolute;
+	top: 6px;
+	right: 7%;
 }
 
 .btn-block{
 	background-color: rgb(111,88,57);
 	position: absolute;
 	top: 0px;
-	right: 0px;
+	right: 7%;
 	height: 100%;
-	width: 28%;
+	width: 14px;
+	z-index: 2;
 }
 
 .active {
@@ -409,44 +412,43 @@ header img {
 
 .photo {
 	height: 152px;
-	width: calc(100% / 6);
 	float: left;
 }
 
 .photo1 {
 	height: 152px;
 	width: 152px;
-	margin-right: 8px;
+	margin-right: 10px;
 }
 
 .photo2 {
 	height: 152px;
 	width: 152px;
-	margin-right: 6px;
+	margin-right: 10px;
 }
 
 .photo3 {
 	height: 152px;
 	width: 152px;
-	margin-left: 2px;
+	margin-right: 10px;
 }
 
 .photo4 {
 	height: 152px;
 	width: 152px;
-	margin-left: 4px;
+	margin-right: 10px;
 }
 
 .photo5 {
 	height: 152px;
 	width: 152px;
-	margin-left: 6px;
+	margin-right: 10px;
 }
 
 .photo6 {
 	height: 152px;
 	width: 152px;
-	margin-left: 8px;
+	margin-left: 0;
 }
 
 .footer-text {
