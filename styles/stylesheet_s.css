@@ -6,12 +6,10 @@ body {
 
 .container {
 	width: 90%;
-	margin: 0 auto;
 	padding: 0 5%;
 }
 
 .title {
-	margin: 0 auto;
 	padding-top: 13.793103%;
 	padding-bottom: 6.896552%;
 }
@@ -26,14 +24,8 @@ body {
 }
 
 header {
-	width: 100%;
 	height: auto;
-	background-color: white;
-	border-bottom: rgb(242,242,242) solid 2px;
 	padding-top: 0;
-	position :fixed;
-	top: 0;
-	z-index: 2;
 }
 
 .header-logo {
@@ -70,7 +62,6 @@ header {
 }
 
 .menu-wrapper {
-	background-color: rgb(249,235,210);
 	width: 100%;
 	height: auto;
 	padding-bottom: 7.34375%; 
@@ -209,30 +200,19 @@ header {
 .menu img {
 	width: 100%;
 	height: 100%;
-	margin: 0 auto;
 	vertical-align:bottom;
 }
 
-.menu-pic {
-	position: relative;
-	height: 100%;
-}
-
 .menu-pic a {
-	position: absolute;
 	top: 103.355705%;
 	width: 100%;
 	color: #6f5839;
 	font-size: 3.75vw;
-	text-align: center;
-	font-family: "Hiragino Kaku Gothic ProN","メイリオ",'Meiryo', sans-serif;
 }
 
 .menu-left {
 	width: 89.655172%;
 	height: auto;
-	background-color: white;
-	margin: 0 auto;
 	margin-bottom: 12.884615%;
 	padding-bottom: 0%; 
 }
@@ -240,27 +220,21 @@ header {
 .menu-right {
 	width: 89.655172%;
 	height: auto;
-	background-color: white;
-	margin: 0 auto;
 	margin-bottom: 12.884615%;
 }
 
 .news-wrapper {
 	width: 100%;
 	height: auto;
-
 }
 
 .title-news {
 	width: 67.241379%;
 	height: auto;
-	margin: 0 auto;
 }
 
 .news {
-	width: calc(100% / 2) ;
 	height: 100%;
-	float: left;
 	margin-bottom: 0;
  }
 
@@ -277,77 +251,54 @@ header {
 .news1 {
 	width: 87.586207%;
 	height: 40%;
-	background-color: white;
-	position: relative;
-	float: right;
 	margin-right: 1.724138%;
 	margin-bottom: 3.448276%;
 }
 
 .news-text1{
-	position: absolute;
 	top: 62.130178%;
 	height: 37.869822%;
-	width: 100%;
-	background-color: rgba(127,127,127,0.5);
 }
 
 .news-text1 p{
 	font-size: 3.75vw;
-	color:white;
 	margin: 5.859375% 7.857143% ;
-	vertical-align: middle;
 	line-height: 137.5%;
 }
 
 .news2 {
 	width: 87.586207%;
 	height: 40%;
-	background-color: white;
-	position: relative;
-	float: left;
 	margin-left: 1.724138%;
 	margin-bottom: 3.448276%;
 }
 
 .news-text2{
-	position: absolute;
 	top: 62.130178%;
 	height: 37.869822%;
-	width: 100%;
-	background-color: rgba(127,127,127,0.5);
 }
 
 .news-text2 p{
 	font-size: 3.75vw;
-	color:white;
 	margin: 5.859375% 7.857143% ;
-	vertical-align: middle;
 	line-height: 137.5%;
 }
 
 .news3 {
 	width: 87.586207%;
 	height: 40%;
-	background-color: white;
-	float: right;
-	position: relative;
 	margin-right: 1.724138%;
 }
 
 .news-text3{
-	position: absolute;
 	top: 62.130178%;
 	height: 37.869822%;
 	width: 100%;
-	background-color: rgba(127,127,127,0.5);
 }
 
 .news-text3 p{
 	font-size: 3.75vw;
-	color:white;
 	margin: 5.859375% 7.857143% ;
-	vertical-align: middle;
 	line-height: 137.5%;
 }
 
@@ -359,18 +310,14 @@ header {
 .title-phot {
 	width: 88.103448%;
 	height: auto;
-	margin: 0 auto;
 }
 
 .photo-container{
 	width: 81.25%;
-	margin: 0 auto;
 }
 
 .photo {
-	width: calc(100% / 3) ;
 	height: 100%;
-	float: left;
 	margin-bottom: 0.78125%;
 }
 
@@ -388,13 +335,11 @@ header {
 .photo2 {
 	height: 100%;
 	width: 96.144936%;
-	margin: 0 auto;
 }
 
 .photo3 {
 	height: 100%;
 	width: 96.144936%;
-	float: right;
 }
 
 .photo4 {
@@ -406,27 +351,20 @@ header {
 .photo5 {
 	height: 100%;
 	width: 96.144936%;
-	margin: 0 auto;
 }
 
 .photo6 {
 	height: 100%;
 	width: 96.144936%;
-	float: right;
 }
 
 .footer-text {
 	padding-top: 3.125%;
-	margin: 0 auto;
-	color: #cccccc;
 	font-size: 3.125vw;
-	text-align: center;
 }
 
 footer {
-	width: 100%;
 	height: auto;
-	background-color: rgb(111,88,57);
 	margin: 14.0625% auto 0;
 	padding-bottom: 15.625%;
 }
